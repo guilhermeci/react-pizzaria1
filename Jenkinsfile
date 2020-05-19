@@ -17,7 +17,7 @@ pipeline {
                 echo 'Deploying....'
             }
         }
-		stage('adicionado') {
+		stage('19/05/2020') {
             steps {
                 echo 'Adicionado outro ponto.'
             }
