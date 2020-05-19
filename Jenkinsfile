@@ -17,5 +17,10 @@ pipeline {
                 echo 'Deploying....'
             }
         }
+		stage('adicionado') {
+            steps {
+                echo 'Adicionado outro ponto.'
+            }
+        }
     }
 }
